@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.katarzkubat.habittracker.HabitsActivity">
+    <item
+        android:id="@+id/insert_habit"
+        android:title="@string/insert"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_habits"
+        android:title="@string/delete_all"
+        app:showAsAction="never" />
+</menu>
